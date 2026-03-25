@@ -6,8 +6,9 @@ import {
   collection, getDocs, doc, setDoc, deleteDoc,
   query, orderBy, serverTimestamp
 } from 'firebase/firestore';
+import { initializeApp, deleteApp } from 'firebase/app';
 import {
-  createUserWithEmailAndPassword, getAuth, deleteApp, initializeApp
+  createUserWithEmailAndPassword, getAuth
 } from 'firebase/auth';
 import { LogOut, Plus, Trash2, RefreshCw, Copy, ExternalLink, Users, BarChart2, Store, X, Shield } from 'lucide-react';
 
